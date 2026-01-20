@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+.bg-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Overlay container */
+.overlay {
+    background: rgba(0, 0, 0, 0.35); /* हल्का dark effect */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Poster image */
+.poster {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
